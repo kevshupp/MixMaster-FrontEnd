@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#Top">Portafolio</a>
+  <a class="navbar-brand" routerLink="/">MIXMASTER</a>
   <button
     class="navbar-toggler"
     type="button"
@@ -13,27 +13,33 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
+      <!-- Enlace a Inicio -->
       <li class="nav-item">
-        <a class="nav-link" href="#">Inicio</a>
+        <a class="nav-link" routerLink="/" routerLinkActive="active">Inicio</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="http://localhost:4200/#Top:~:text=%C2%BF%20De%20quien%20pinga%20es%20este%20portafolio%20%3F">Sobre mi</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://github.com/BNAV01" target="_blank"
-          >GitHub</a
-        >
-      </li>
+
+      <!-- Enlace a Sobre este sitio -->
       <li class="nav-item">
         <a
           class="nav-link"
-          href="https://www.linkedin.com/in/bnav01/"
-          target="_blank"
-          >LinkedIN</a
+          href="http://localhost:4200/#Top:~:text=%C2%BF%20De%20quien%20pinga%20es%20este%20portafolio%20%3F"
+          >Sobre este sitio</a
         >
       </li>
+
+      <!-- Enlace al GitHub -->
       <li class="nav-item">
-        <a class="nav-link" href="mailto:bnavm01@gmail.com">Gmail</a>
+        <a
+          class="nav-link"
+          href="https://github.com/kevshupp/MixMaster-FrontEnd"
+          target="_blank"
+          >GitHub repo</a
+        >
+      </li>
+
+      <!-- Nuevo Enlace: Sign Up -->
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/signup" routerLinkActive="active">Sign Up</a>
       </li>
     </ul>
   </div>
